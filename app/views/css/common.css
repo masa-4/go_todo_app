@@ -1,0 +1,21 @@
+body {
+    padding-top: 0px;
+}
+
+.nav {
+    background-color: aqua;
+    width: 100%;
+    display: table;
+    height: 50px;
+
+}
+
+.menu {
+
+    margin-left:22px;
+}
+
+.nav-item {
+    vertical-align: middle;
+    display: table-cell;
+}
