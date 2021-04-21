@@ -5,4 +5,4 @@ version: 2.1
         - image: circleci/node:4.8.2 # ジョブのコマンドが実行されるプライマリ コンテナ
       steps:
         - checkout # プロジェクト ディレクトリ内のコードをチェック アウトします
-        - run: echo "hello world" # `echo` コマンドを実行します
+        - run: npx cypress run --record --key be10420f-915c-49c5-ba16-bbbcc7a5be24 --spec ./cypress/integration/examples/actions.spec.js
